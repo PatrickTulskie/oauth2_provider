@@ -1,5 +1,7 @@
 h1. Introduction
 
+%{font-size:18pt}NOTE: This fork does not have tests nor has it been battle tested with a variety of clients.  Use at your own risk!  It was originally written for v09 of the OAuth2 spec, but has been adapted for basic v22 support.%
+
 This plugin implements v09 of the OAuth2 draft spec "http://tools.ietf.org/html/draft-ietf-oauth-v2-09":http://tools.ietf.org/html/draft-ietf-oauth-v2-09.
 The latest version of the spec is available at "http://tools.ietf.org/html/draft-ietf-oauth-v2":http://tools.ietf.org/html/draft-ietf-oauth-v2
 
