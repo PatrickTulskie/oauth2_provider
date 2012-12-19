@@ -1,7 +1,0 @@
-#!/bin/sh
-
-unset GEM_HOME
-unset GEM_PATH
-
-exec `dirname $0`/../../tools/jruby-*/bin/jruby $*
-
