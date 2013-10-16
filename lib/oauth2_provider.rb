@@ -7,6 +7,9 @@ require 'oauth2/provider/model_base'
 require 'oauth2/provider/clock'
 require 'oauth2/provider/url_parser'
 require 'oauth2/provider/configuration'
+require 'oauth2/provider/application_controller_methods'
+require 'oauth2/provider/ssl_helper'
+require 'oauth2/provider/transaction_helper'
 require 'ext/validatable_ext'
 
 Oauth2::Provider::ModelBase.datasource = ENV["OAUTH2_PROVIDER_DATASOURCE"]
